@@ -15,7 +15,7 @@
 ## 🛡️ Quick Info & Badges
 
 <p align="center">
-  <a href="https://github.com/softwareuz">
+  <a href="https://github.com/axrorback">
     <img src="https://img.shields.io/github/followers/axrorback?label=Follow&style=social" />
   </a>
   <a href="mailto:axrorback@gmail.com">
@@ -53,7 +53,6 @@ This GitHub profile contains the projects I’ve worked on as part of my learnin
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=axrorback&show_icons=true&theme=github_dark" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axrorback&layout=compact&theme=github_dark" height="150" />
 </p>
 
 ---
@@ -62,7 +61,7 @@ This GitHub profile contains the projects I’ve worked on as part of my learnin
 
 - 🌐 Portfolio: [https://softwareuz.github.io](https://softwareuz.github.io)  
 - 📧 Email: [axrorback@gmail.com](mailto:axrorback@gmail.com)  
-- 💬 Telegram: [@axrorback](https://t.me/axrorback) *(replace with your handle)*  
+- 💬 Telegram: [@axrorback](https://t.me/axrorback) 
 - 🧑‍💼 LinkedIn: *([axrorback](https://www.linkedin.com/in/axrorback/))*
 
 ---
