@@ -32,6 +32,12 @@
   </a>
 </p>
 
+<!-- GitHub Achievements Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/YOLO-Achieved-brightgreen?style=for-the-badge" alt="YOLO Badge" />
+  <img src="https://img.shields.io/badge/Pull-Shark-Achieved-blue?style=for-the-badge" alt="Pull Shark Badge" />
+</p>
+
 ---
 
 ## 🚀 About Me
