@@ -15,27 +15,11 @@
 ## 🛡️ Quick Info & Badges
 
 <p align="center">
-  <a href="https://github.com/axrorback">
-    <img src="https://img.shields.io/badge/Follow-GitHub-ff69b4?style=for-the-badge&logo=github" />
-  </a>
-  <a href="mailto:axrorback@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-1abc9c?style=for-the-badge&logo=gmail" />
-  </a>
-  <a href="https://axrorback.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-9b59b6?style=for-the-badge&logo=githubpages" />
-  </a>
-  <a href="https://www.linkedin.com/in/axrorback/">
-    <img src="https://img.shields.io/badge/LinkedIn-axrorback-0077B5?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="https://t.me/axrorback">
-    <img src="https://img.shields.io/badge/Telegram-@axrorback-3498db?style=for-the-badge&logo=telegram" />
-  </a>
-</p>
+  <!-- Pull Shark Badge -->
+  <img src="https://img.shields.io/badge/Pull%20Shark-Achieved-blue?style=for-the-badge" alt="Pull Shark Badge" />
 
-<!-- GitHub Achievements Badges -->
-<p align="center">
+  <!-- YOLO Badge -->
   <img src="https://img.shields.io/badge/YOLO-Achieved-brightgreen?style=for-the-badge" alt="YOLO Badge" />
-  <img src="https://img.shields.io/badge/Pull-Shark-Achieved-blue?style=for-the-badge" alt="Pull Shark Badge" />
 </p>
 
 ---
