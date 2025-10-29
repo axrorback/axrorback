@@ -27,7 +27,7 @@
 
 | Category | Tools & Skills |
 |-----------|----------------|
-| 🧩 Languages | Python, SQL, JavaScript |
+| 🧩 Languages | Python, SQL |
 | ⚙️ Frameworks | Django, DRF, FastAPI, Flask |
 | 🗄️ Databases | PostgreSQL, SQLite, Supabase |
 | 🔐 Auth & APIs | OAuth2, JWT, RESTful APIs |
@@ -66,7 +66,7 @@
 ## 📫 Contact Me
 
 <p align="center">
-  <a href="https://axrorback.github.io">
+  <a href="https://axrorback.uz">
     <img src="https://img.shields.io/badge/Portfolio-Visit-gradient?style=for-the-badge&logo=githubpages&logoColor=fff&colorA=ff7f50&colorB=ff69b4" />
   </a>
   <a href="mailto:axrorback@gmail.com">
@@ -83,5 +83,5 @@
 ---
 
 <p align="center">
-  Made with ❤️ by Ahrorjon Ibrohimjonov
+  Made with  Ahrorjon Ibrohimjonov
 </p>
