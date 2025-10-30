@@ -1,12 +1,10 @@
 <h1 align="center">👋 Hi, I'm Ahrorjon Ibrohimjonov</h1>
 <h3 align="center">💻 Backend Developer | Python | Flask | Django | REST APIs | PostgreSQL</h3>
-
 <p align="center">
   🎓 Computer Science Student at <strong>Acharya University</strong> <br/>
   🧠 Passionate about building scalable backend systems and APIs <br/>
   🚀 Focused on clean architecture, database design & DevOps tools
 </p>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=650&lines=Building+Scalable+Backends;Designing+Powerful+APIs;Flask+%7C+Django+%7C+PostgreSQL+%7C+Docker" alt="Typing SVG">
 </p>
