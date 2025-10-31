@@ -6,6 +6,7 @@
   🚀 Focused on clean architecture, database design & DevOps tools
 </p>
 <p align="center">
+  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=650&lines=Building+Scalable+Backends;Designing+Powerful+APIs;Flask+%7C+Django+%7C+PostgreSQL+%7C+Docker" alt="Typing SVG">
 </p>
 
@@ -63,16 +64,21 @@
 
 ## 📫 Contact Me
 
+
+
 <p align="center">
   <a href="https://axrorback.uz">
     <img src="https://img.shields.io/badge/Portfolio-Visit-gradient?style=for-the-badge&logo=githubpages&logoColor=fff&colorA=ff7f50&colorB=ff69b4" />
   </a>
+  
   <a href="mailto:axrorback@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-gradient?style=for-the-badge&logo=gmail&logoColor=fff&colorA=1abc9c&colorB=16a085" />
   </a>
+  
   <a href="https://t.me/axrorback">
     <img src="https://img.shields.io/badge/Telegram-@axrorback-gradient?style=for-the-badge&logo=telegram&logoColor=fff&colorA=3498db&colorB=9b59b6" />
   </a>
+  
   <a href="https://www.linkedin.com/in/axrorback/">
     <img src="https://img.shields.io/badge/LinkedIn-axrorback-gradient?style=for-the-badge&logo=linkedin&logoColor=fff&colorA=0077B5&colorB=00bfff" />
   </a>
