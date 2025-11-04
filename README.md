@@ -42,7 +42,9 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=axrorback&theme=radical&hide_border=false" height="150" />
 </p>
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=axrorback&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="axrorback" />
+</p>
 ---
 
 ## 🛡️ Achievements & Badges
