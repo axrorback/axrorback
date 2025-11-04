@@ -16,6 +16,10 @@
   </a>
 </p>
 ---
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=axrorback&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="axrorback" />
+</p>
+---
 ## 🛠️ My Backend Tech Stack
 | Category | Tools & Skills |
 |-----------|----------------|
@@ -28,6 +32,19 @@
 | 🧠 Concepts | ORM, Caching, Queues, Database Design |
 
 ---
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=axrorback&theme=radical&no-frame=true&margin-w=10" />
+</p>
+---
+![snake gif](https://github.com/axrorback/axrorback/blob/output/github-contribution-grid-snake.svg)
+---
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+---
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</p>
+
 
 
 
@@ -42,10 +59,10 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=axrorback&theme=radical&hide_border=false" height="150" />
 </p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=axrorback&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="axrorback" />
-</p>
+
 ---
+[![Ahrorjon's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=axrorback&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 ## 🛡️ Achievements & Badges
 
@@ -78,6 +95,9 @@
     <img src="https://img.shields.io/badge/LinkedIn-axrorback-gradient?style=for-the-badge&logo=linkedin&logoColor=fff&colorA=0077B5&colorB=00bfff" />
   </a>
 </p>
+
+---
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical)
 
 ---
 
