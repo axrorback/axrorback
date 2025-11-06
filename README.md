@@ -1,31 +1,24 @@
 <h1 align="center">👋 Hi, I'm Ahrorjon Ibrohimjonov</h1>
 <h3 align="center">💻 Backend Developer | Python | Flask | Django | REST APIs | PostgreSQL</h3>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=axrorback&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="axrorback" />
 </p>
-
 <p align="center">
   🎓 Computer Science Student at <strong>Acharya University</strong> <br/>
   🧠 Passionate about building scalable backend systems and APIs <br/>
   🚀 Focused on clean architecture, database design & DevOps tools
 </p>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=650&lines=Building+Scalable+Backends;Designing+Powerful+APIs;Flask+%7C+Django+%7C+PostgreSQL+%7C+Docker" alt="Typing SVG">
 </p>
-
 ---
-
-## 💖 Support My Work
+##  Support My Work
 <p align="center">
   <a href="https://github.com/sponsors/axrorback">
     <img src="https://img.shields.io/badge/Sponsor%20me%20on%20GitHub-%23EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor axrorback" />
   </a>
 </p>
-
 ---
-
 ## 🛠️ My Backend Tech Stack
 | Category | Tools & Skills |
 |-----------|----------------|
@@ -36,9 +29,7 @@
 | 🧰 Tools | Git, GitHub, Postman, Docker, VS Code |
 | ☁️ DevOps | GitHub Actions, AWS (S3, EC2), Supabase |
 | 🧠 Concepts | ORM, Caching, Queues, Database Design |
-
 ---
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=axrorback&theme=radical&no-frame=true&margin-w=10" />
 </p>
