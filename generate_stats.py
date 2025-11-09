@@ -2,10 +2,10 @@
 import os
 import requests
 import datetime
+import re
 
 GITHUB_USER = "axrorback"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub Actions secrets orqali olinadi
-
 GQL_URL = "https://api.github.com/graphql"
 
 QUERY = """
@@ -57,17 +57,41 @@ def compute_streak(calendar):
     return streak, calendar["totalContributions"]
 
 def main():
+    # 1️⃣ Fetch calendar
     calendar = fetch_calendar()
     streak, total = compute_streak(calendar)
-    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    content = f"""### 📊 GitHub Stats
+
+    # 2️⃣ Time in GMT+5
+    tz = datetime.timezone(datetime.timedelta(hours=5))
+    now = datetime.datetime.now(tz)
+    today_str = now.strftime("%Y-%m-%d %H:%M:%S GMT+5")
+
+    # 3️⃣ Create STATS.md content
+    content = f"""### 🔥 GitHub Stats
 - **User:** {GITHUB_USER}
 - **Total contributions:** {total}
 - **Current streak:** {streak} days
-- **Last update:** {today}
+- **Last update:** {today_str}
 """
+
     with open("STATS.md", "w") as f:
         f.write(content)
+
+    # 4️⃣ Inject into README.md automatically
+    if os.path.exists("README.md"):
+        with open("README.md", "r") as f:
+            readme = f.read()
+
+        # Replace between AUTO-STATS markers
+        new_readme = re.sub(
+            r"<!-- AUTO-STATS:START -->.*<!-- AUTO-STATS:END -->",
+            f"<!-- AUTO-STATS:START -->\n{content}\n<!-- AUTO-STATS:END -->",
+            readme,
+            flags=re.DOTALL
+        )
+
+        with open("README.md", "w") as f:
+            f.write(new_readme)
 
 if __name__ == "__main__":
     main()
