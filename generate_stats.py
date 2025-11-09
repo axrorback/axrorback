@@ -1,11 +1,10 @@
-# generate_stats.py
 import os
 import requests
 import datetime
 import re
 
 GITHUB_USER = "axrorback"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub Actions secrets orqali olinadi
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GQL_URL = "https://api.github.com/graphql"
 
 QUERY = """
@@ -27,15 +26,9 @@ query ($login: String!, $from: DateTime!, $to: DateTime!) {
 """
 
 def fetch_calendar():
-    to_dt = datetime.datetime.now(datetime.timezone.utc).replace(
-        hour=23, minute=59, second=59, microsecond=0
-    )
+    to_dt = datetime.datetime.now(datetime.timezone.utc).replace(hour=23, minute=59, second=59, microsecond=0)
     from_dt = to_dt - datetime.timedelta(days=370)
-    variables = {
-        "login": GITHUB_USER,
-        "from": from_dt.isoformat(),
-        "to": to_dt.isoformat()
-    }
+    variables = {"login": GITHUB_USER, "from": from_dt.isoformat(), "to": to_dt.isoformat()}
     headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
     resp = requests.post(GQL_URL, json={"query": QUERY, "variables": variables}, headers=headers, timeout=30)
     resp.raise_for_status()
@@ -45,7 +38,7 @@ def compute_streak(calendar):
     days = []
     for week in calendar["weeks"]:
         for day in week["contributionDays"]:
-            days.append({"date": day["date"], "count": day["contributionCount"]})
+            days.append({"date": day["date"], "count": day["count"]})
     days.sort(key=lambda x: x["date"])
     day_map = {datetime.date.fromisoformat(d["date"]): d["count"] for d in days}
     today = datetime.datetime.now(datetime.timezone.utc).date()
@@ -57,16 +50,13 @@ def compute_streak(calendar):
     return streak, calendar["totalContributions"]
 
 def main():
-    # 1️⃣ Fetch calendar
     calendar = fetch_calendar()
     streak, total = compute_streak(calendar)
 
-    # 2️⃣ Time in GMT+5
     tz = datetime.timezone(datetime.timedelta(hours=5))
     now = datetime.datetime.now(tz)
     today_str = now.strftime("%Y-%m-%d %H:%M:%S GMT+5")
 
-    # 3️⃣ Create STATS.md content
     content = f"""### 🔥 GitHub Stats
 - **User:** {GITHUB_USER}
 - **Total contributions:** {total}
@@ -74,15 +64,12 @@ def main():
 - **Last update:** {today_str}
 """
 
-    with open("README.md", "w") as f:
-        f.write(content)
-
-    # 4️⃣ Inject into README.md automatically
-    if os.path.exists("README.md"):
-        with open("README.md", "r") as f:
+    # ===== README.md markerini yangilash =====
+    readme_path = "README.md"
+    if os.path.exists(readme_path):
+        with open(readme_path, "r") as f:
             readme = f.read()
 
-        # Replace between AUTO-STATS markers
         new_readme = re.sub(
             r"<!-- AUTO-STATS:START -->.*<!-- AUTO-STATS:END -->",
             f"<!-- AUTO-STATS:START -->\n{content}\n<!-- AUTO-STATS:END -->",
@@ -90,7 +77,7 @@ def main():
             flags=re.DOTALL
         )
 
-        with open("README.md", "w") as f:
+        with open(readme_path, "w") as f:
             f.write(new_readme)
 
 if __name__ == "__main__":
