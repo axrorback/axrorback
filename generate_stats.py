@@ -1,12 +1,18 @@
+# generate_stats.py
 import os
 import requests
 import datetime
 import re
 
+# ================== CONFIG ==================
 GITHUB_USER = "axrorback"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub Actions secrets orqali olinadi
+README_PATH = "README.md"  # README faylingiz manzili
+# ============================================
+
 GQL_URL = "https://api.github.com/graphql"
 
+# GraphQL so'rov
 QUERY = """
 query ($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
@@ -25,20 +31,31 @@ query ($login: String!, $from: DateTime!, $to: DateTime!) {
 }
 """
 
+# GitHub contributions calendar’ni olish
 def fetch_calendar():
-    to_dt = datetime.datetime.now(datetime.timezone.utc).replace(hour=23, minute=59, second=59, microsecond=0)
-    from_dt = to_dt - datetime.timedelta(days=370)
-    variables = {"login": GITHUB_USER, "from": from_dt.isoformat(), "to": to_dt.isoformat()}
+    to_dt = datetime.datetime.now(datetime.timezone.utc).replace(
+        hour=23, minute=59, second=59, microsecond=0
+    )
+    from_dt = to_dt - datetime.timedelta(days=370)  # so'nggi 1 yil
+    variables = {
+        "login": GITHUB_USER,
+        "from": from_dt.isoformat(),
+        "to": to_dt.isoformat()
+    }
     headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
     resp = requests.post(GQL_URL, json={"query": QUERY, "variables": variables}, headers=headers, timeout=30)
     resp.raise_for_status()
     return resp.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 
+# Streak va total contributions hisoblash
 def compute_streak(calendar):
     days = []
     for week in calendar["weeks"]:
         for day in week["contributionDays"]:
-            days.append({"date": day["date"], "count": day["count"]})
+            days.append({
+                "date": day["date"],
+                "count": day["contributionCount"]  # to'g'rilandi, avval 'count' deb noto'g'ri edi
+            })
     days.sort(key=lambda x: x["date"])
     day_map = {datetime.date.fromisoformat(d["date"]): d["count"] for d in days}
     today = datetime.datetime.now(datetime.timezone.utc).date()
@@ -49,14 +66,34 @@ def compute_streak(calendar):
         cur -= datetime.timedelta(days=1)
     return streak, calendar["totalContributions"]
 
+# README.md ichidagi markerlarni yangilash
+def update_readme(content):
+    if not os.path.exists(README_PATH):
+        print(f"{README_PATH} topilmadi!")
+        return
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        readme = f.read()
+    new_readme = re.sub(
+        r"<!-- AUTO-STATS:START -->.*<!-- AUTO-STATS:END -->",
+        f"<!-- AUTO-STATS:START -->\n{content}\n<!-- AUTO-STATS:END -->",
+        readme,
+        flags=re.DOTALL
+    )
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(new_readme)
+    print("README.md yangilandi!")
+
+# Asosiy funksiya
 def main():
     calendar = fetch_calendar()
     streak, total = compute_streak(calendar)
 
+    # GMT+5 vaqt
     tz = datetime.timezone(datetime.timedelta(hours=5))
     now = datetime.datetime.now(tz)
     today_str = now.strftime("%Y-%m-%d %H:%M:%S GMT+5")
 
+    # Markdown content
     content = f"""### 🔥 GitHub Stats
 - **User:** {GITHUB_USER}
 - **Total contributions:** {total}
@@ -64,21 +101,8 @@ def main():
 - **Last update:** {today_str}
 """
 
-    # ===== README.md markerini yangilash =====
-    readme_path = "README.md"
-    if os.path.exists(readme_path):
-        with open(readme_path, "r") as f:
-            readme = f.read()
-
-        new_readme = re.sub(
-            r"<!-- AUTO-STATS:START -->.*<!-- AUTO-STATS:END -->",
-            f"<!-- AUTO-STATS:START -->\n{content}\n<!-- AUTO-STATS:END -->",
-            readme,
-            flags=re.DOTALL
-        )
-
-        with open(readme_path, "w") as f:
-            f.write(new_readme)
+    # README.md’ni yangilash
+    update_readme(content)
 
 if __name__ == "__main__":
     main()
