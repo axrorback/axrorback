@@ -29,9 +29,12 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axrorback&layout=compact&theme=transparent" height="150">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=axrorback&theme=transparent&hide_border=false" height="150">
-</p>
+---
+
+### 🔥 Current Streak & Contributions
+
+<!-- AUTO-STATS:START -->
+<!-- AUTO-STATS:END -->
 
 ---
 
