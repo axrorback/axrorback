@@ -1,33 +1,44 @@
 name: Update GitHub Stats
 
 on:
+  # Har kuni UTC bo'yicha 00:00 da ishga tushadi
   schedule:
-    - cron: '0 0 * * *'  # har kuni 00:00 UTC
-  workflow_dispatch:     # qo'lda ishga tushirish
+    - cron: '0 0 * * *'
+  # Workflow’ni qo’lda ham ishga tushirish imkoniyati
+  workflow_dispatch: 
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Repo’ni checkout qilish
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Python o’rnatish
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
+      # 3️⃣ Dependencies o’rnatish
       - name: Install dependencies
         run: pip install requests
 
+      # 4️⃣ Stats generatsiya qilish (Python skript orqali)
       - name: Run stats script
-        run: python3 generate_stats.py
+        run: python generate_stats.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 5️⃣ Commit va push qilish
       - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
           message: "Auto-update GitHub stats"
           push: true
+          author_name: "GitHub Actions"
+          author_email: "actions@github.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
