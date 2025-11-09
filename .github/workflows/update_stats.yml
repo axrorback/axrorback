@@ -1,0 +1,33 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # har kuni 00:00 UTC
+  workflow_dispatch:     # qo'lda ishga tushirish
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run stats script
+        run: python3 generate_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Auto-update GitHub stats"
+          push: true
