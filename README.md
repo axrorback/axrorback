@@ -6,9 +6,7 @@
   <br>🧠 Passionate about building scalable backend systems  
   <br>🚀 Focused on clean architecture & database design
 </p>
-
 ---
-
 ## 🛠️ Tech Stack
 
 | Category | Tools |
@@ -19,36 +17,27 @@
 | **APIs & Auth** | REST, JWT, OAuth2 |
 | **Tools** | Git, Docker, Postman, VS Code |
 | **DevOps** | GitHub Actions, AWS, Supabase |
-
 ---
-
 ## 📊 GitHub Stats
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=axrorback&show_icons=true&theme=transparent" height="150">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axrorback&layout=compact&theme=transparent" height="150">
 </p>
-
 ---
-
 ### 🔥 Current Streak & Contributions
 
 <!-- AUTO-STATS:START -->
 <!-- AUTO-STATS:END -->
 
 ---
-
 ## 📫 Connect with Me
-
 <p align="center">
   <a href="https://axrorback.uz">🌐 Portfolio</a> •
   <a href="mailto:axrorback@gmail.com">✉️ Email</a> •
   <a href="https://t.me/axrorback">💬 Telegram</a> •
   <a href="https://www.linkedin.com/in/axrorback/">🔗 LinkedIn</a>
 </p>
-
 ---
-
 <p align="center">
   Made with ❤️ by <strong>Ahrorjon Ibrohimjonov</strong>
 </p>
