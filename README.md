@@ -8,7 +8,6 @@
 </p>
 ---
 ## 🛠️ Tech Stack
-
 | Category | Tools |
 |-----------|--------|
 | **Languages** | Python, SQL |
