@@ -17,14 +17,6 @@ Learning every day and constantly improving my skills.
 
 ---
 
-### 📈 GitHub Stats
-![Ahror's GitHub stats](https://github-readme-stats.vercel.app/api?username=axrorback&show_icons=true&theme=tokyonight)
-
-### 🏆 Top Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=axrorback&layout=compact&theme=tokyonight)
-
----
-
 ### 📫 Contact Me
 - **Email:** axrorback@gmail.com  
 - **Telegram:** @axrorback  
@@ -33,4 +25,4 @@ Learning every day and constantly improving my skills.
 
 ---
 
-🔥 *Focused on backend development. Always learning. Always building.*
+*Focused on backend development. Always learning. Always building.*
