@@ -10,19 +10,13 @@ Learning every day and constantly improving my skills.
 
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=axrorback&show_icons=true&hide_border=true&rank_icon=github)
-
----
-
-### 📈 GitHub Activity Graph
-
-![Ahror's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=axrorback&theme=tokyo-night&hide_border=true)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=axrorback&theme=tokyonight)
 
 ---
 
 ### 🧮 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=axrorback&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=axrorback&theme=tokyonight)
 
 ---
 
