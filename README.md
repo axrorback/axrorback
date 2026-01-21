@@ -1,41 +1,86 @@
-## 👋 Hi, I'm Ahror!
+<!-- Profile README for: axrorback -->
 
-I'm a backend developer passionate about building reliable, scalable, and clean server-side applications.  
-I work mainly with **Python**, **Django**, **Flask**, **FastAPI** and modern backend tools.  
-Learning every day and constantly improving my skills.
+<p align="center">
+  <a href="https://app.daily.dev/axrorback">
+    <img src="https://api.daily.dev/devcards/v2/yumA29LFxVaJbFmW9KhF2.png?r=hal&type=wide" width="652" alt="Ahrorjon Ibrohimjonov's Dev Card" />
+  </a>
+</p>
 
----
-
-## 📊 GitHub Overview
-
-
-
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=axrorback&theme=tokyonight)
-
----
-
-### 🧮 Top Languages
-
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=axrorback&theme=tokyonight)
+<p align="center">
+  <a href="https://github.com/axrorback">
+    <img src="https://hits.sh/github.com/axrorback.svg?style=flat-square&label=profile%20views" alt="GitHub profile views" />
+  </a>
+</p>
 
 ---
 
-### 🧠 Tech Stack
-- **Languages:** Python, C (Basics), JavaScript
-- **Backend Frameworks:** Django, Django REST Framework, Flask, FastAPI
-- **Databases:** PostgreSQL, SQLite, Supabase
-- **Mobile:** Flutter (basic)
-- **DevOps / Tools:** Docker, Git, GitHub Actions, AWS, Linux (Ubuntu / macOS)
-- **Frontend Basics:** HTML, CSS, Bootstrap, Jinja2
+## About
+
+Backend-focused developer working primarily with **Python**. I build APIs, automation, and scalable backend services, and I enjoy learning DevOps practices to ship reliably.
+
+* **Primary stack:** Django / DRF, FastAPI
+* **Databases:** PostgreSQL (primary), SQLite
+* **DevOps:** Docker, GitHub Actions, Linux
 
 ---
 
-### 📫 Contact Me
-- **Email:** axrorback@gmail.com  
-- **Telegram:** @axrorback  
-- **LinkedIn:** https://linkedin.com/in/axrorback  
-- **Phone:** +998 93 100 40 05  
+## GitHub Overview
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=axrorback&theme=tokyonight&show_icons=true&hide_border=true" alt="GitHub Stats" />
+</p>
 
 ---
 
-*Focused on backend development. Always learning. Always building.*
+## Top Languages
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=axrorback&theme=tokyonight" alt="Top Languages" />
+</p>
+
+---
+
+## Tech Stack
+
+**Languages**
+
+* Python
+* JavaScript (basics)
+* C (basics)
+
+**Backend**
+
+* Django, Django REST Framework
+* FastAPI
+* Flask
+
+**Data / Storage**
+
+* PostgreSQL
+* SQLite
+* Supabase
+
+**DevOps / Tools**
+
+* Docker
+* Git, GitHub Actions
+* AWS (learning)
+* Linux (Ubuntu), macOS
+
+**Frontend (when needed)**
+
+* HTML, CSS
+* Bootstrap
+* Jinja2
+
+---
+
+## Contact
+
+* **Email:** [axrorback@gmail.com](mailto:axrorback@gmail.com)
+* **Telegram:** @axrorback
+* **LinkedIn:** linkedin.com/in/axrorback
+
+---
+
+> Focused on backend development — always learning, always building.
