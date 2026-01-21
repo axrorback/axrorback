@@ -5,13 +5,6 @@
     <img src="https://api.daily.dev/devcards/v2/yumA29LFxVaJbFmW9KhF2.png?r=hal&type=wide" width="652" alt="Ahrorjon Ibrohimjonov's Dev Card" />
   </a>
 </p>
-
-<p align="center">
-  <a href="https://github.com/axrorback">
-    <img src="https://hits.sh/github.com/axrorback.svg?style=flat-square&label=profile%20views" alt="GitHub profile views" />
-  </a>
-</p>
-
 ---
 
 ## About
