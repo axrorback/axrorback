@@ -5,7 +5,6 @@
     <img src="https://api.daily.dev/devcards/v2/yumA29LFxVaJbFmW9KhF2.png?r=hal&type=wide" width="652" alt="Ahrorjon Ibrohimjonov's Dev Card" />
   </a>
 </p>
----
 
 ## About
 
@@ -77,3 +76,9 @@ Backend-focused developer working primarily with **Python**. I build APIs, autom
 ---
 
 > Focused on backend development — always learning, always building.
+
+---
+Specially 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=a389065fec32&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+
