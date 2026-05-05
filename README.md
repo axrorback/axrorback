@@ -1,84 +1,54 @@
 <!-- Profile README for: axrorback -->
 
-<p align="center">
-  <a href="https://app.daily.dev/axrorback">
-    <img src="https://api.daily.dev/devcards/v2/yumA29LFxVaJbFmW9KhF2.png?r=hal&type=wide" width="652" alt="Ahrorjon Ibrohimjonov's Dev Card" />
-  </a>
-</p>
+<h3 align="center">Ahrorjon Ibrohimjonov</h3>
+<p align="center">Backend Engineer • Python • Scalable Systems</p>
+
+---
 
 ## About
+Backend-focused developer building reliable APIs, automation, and scalable services.
 
-Backend-focused developer working primarily with **Python**. I build APIs, automation, and scalable backend services, and I enjoy learning DevOps practices to ship reliably.
-
-* **Primary stack:** Django / DRF, FastAPI
-* **Databases:** PostgreSQL (primary), SQLite
-* **DevOps:** Docker, GitHub Actions, Linux
+- **Stack:** Django / DRF, FastAPI
+- **Database:** PostgreSQL
+- **DevOps:** Docker, GitHub Actions, Linux
 
 ---
 
-## GitHub Overview
+## Tech
+**Backend:** Django, DRF, FastAPI, Flask  
+**Data:** PostgreSQL, SQLite, Supabase  
+**DevOps:** Docker, CI/CD, Linux  
+**Other:** REST APIs, Automation
 
+---
+
+## Stats
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=axrorback&theme=tokyonight&show_icons=true&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=axrorback&theme=tokyonight&show_icons=true&hide_border=true" />
 </p>
 
 ---
 
-## Top Languages
-
+## Activity
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=axrorback&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=axrorback&theme=tokyonight" />
 </p>
-
----
-
-## Tech Stack
-
-**Languages**
-
-* Python
-* JavaScript (basics)
-* C (basics)
-
-**Backend**
-
-* Django, Django REST Framework
-* FastAPI
-* Flask
-
-**Data / Storage**
-
-* PostgreSQL
-* SQLite
-* Supabase
-
-**DevOps / Tools**
-
-* Docker
-* Git, GitHub Actions
-* AWS (learning)
-* Linux (Ubuntu), macOS
-
-**Frontend (when needed)**
-
-* HTML, CSS
-* Bootstrap
-* Jinja2
 
 ---
 
 ## Contact
+- Email: axrorback@gmail.com  
+- Telegram: @axrorback  
+- LinkedIn: linkedin.com/in/axrorback
 
-* **Email:** [axrorback@gmail.com](mailto:axrorback@gmail.com)
-* **Telegram:** @axrorback
-* **LinkedIn:** linkedin.com/in/axrorback
+---
+
+<p align="center">
+  <a href="https://user-badge.committers.top/uzbekistan/axrorback">
+    <img src="https://user-badge.committers.top/uzbekistan/axrorback.svg" />
+  </a>
+</p>
 
 ---
 
-> Focused on backend development — always learning, always building.
-
----
-Specially 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=a389065fec32&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
-
-
+> Backend. Systems. Consistency.
