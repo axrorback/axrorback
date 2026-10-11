@@ -1,12 +1,12 @@
-# Axrorjon Ibrohimjonov
+# Ahrorjon Ibrohimjonov
 
-**Backend Engineer · Python · DevOps**
+**DevOps Engineer · Python · Backend**
 
 I build backend applications, APIs, and self-hosted infrastructure with a focus on reliability and maintainability.
 
 ### Tech Stack
 
-- **Languages:** Python, SQL
+- **Languages:** Python , Go(Golang)
 - **Backend:** Django, Django REST Framework, FastAPI
 - **Databases:** PostgreSQL
 - **Infrastructure:** Linux, Docker, Docker Compose, Nginx
