@@ -12,14 +12,21 @@ I believe engineering is more than writing code. It is about designing systems t
 My personal web platform and a home for my work, projects, and technical interests.
 
 ### [auth.axror.tech](https://auth.axror.tech) — OAuth & Identity
-An authentication service built around OAuth and identity integration, supporting centralized authentication across connected applications.
+An authentication service focused on OAuth-based authentication and identity integration across connected applications.
 
 ### [support.axror.tech](https://support.axror.tech) — Payment Infrastructure
-More than just a web page — a working backend system built around payment processing and event-driven architecture.
+More than just a web page — a backend system built around payment processing and event-driven architecture.
 
 Powered by **Apache Kafka** and integrated with **three payment systems**, the platform connects payment workflows with asynchronous event processing and backend transaction handling.
 
 The goal is simple: keep payment events flowing, transactions consistent, and the system operating reliably.
+
+## Private Infrastructure
+
+### [git.axror.tech](https://git.axror.tech) — Self-Hosted Git
+My private Git infrastructure for hosting and managing repositories, maintaining control over development workflows, and operating my own development services.
+
+Self-hosting gives me practical experience with infrastructure management, service reliability, access control, and operational responsibility.
 
 ## Tech Stack
 
